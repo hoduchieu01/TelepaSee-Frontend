@@ -1,5 +1,4 @@
-# video-chat
-
+# Video Chat Application for the World
 Weco | Telepa-see
 
 
