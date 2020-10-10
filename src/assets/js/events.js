@@ -1,5 +1,9 @@
 import helpers from './helpers.js';
 
+
+  
+
+
 window.addEventListener('load', ()=>{
     //When the chat icon is clicked
     document.querySelector('#toggle-chat-pane').addEventListener('click', (e)=>{
@@ -37,6 +41,9 @@ window.addEventListener('load', ()=>{
     //When the 'Create room" is button is clicked
     document.getElementById('create-room').addEventListener('click', (e)=>{
         e.preventDefault();
+        // var element = document.getElementById("main-side");
+        // element.classList.remove("main-side");
+ 
 
         let roomName = document.querySelector('#room-name').value;
         let yourName = document.querySelector('#your-name').value;
