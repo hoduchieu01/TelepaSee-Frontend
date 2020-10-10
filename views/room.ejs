@@ -22,8 +22,8 @@
          flex-wrap: wrap;
       }
       video{
-         height: 400px;
-         width: 600px;
+         height: 100%;
+         width: 100%;
          object-fit: cover;
          padding: 8px;
       }
@@ -49,31 +49,81 @@
                </div>
             </div>
             <div class="main__controls__block">
+             
+            
                <div class="main__controls__button">
-                  <i class="fas fa-shield-alt"></i>
-                  <span>Security</span>
-               </div>
-               <div class="main__controls__button">
-                  <i class="fas fa-user-friends"></i>
-                  <span>Participants</span>
-               </div>
-               <div class="main__controls__button">
-                  <i class="fas fa-comment-alt"></i>
-                  <span>Chat</span>
+                  <i class="fas fa-phone-slash"></i>                 
+                   <span class="leave_meeting">End</span>
                </div>
             </div>
             <div class="main__controls__block">
-               <div class="main__controls__button">
-                  <span class="leave_meeting">Leave Meeting</span>
-               </div>
-            </div>
+                   <div  class="main__controls__button ">
+                     <i class="fas fa-external-link-alt"></i>
+                     <span class="share_screen">Share Screen</span>
+                  </div>
+                 
+                  <div  class="main__controls__button ">
+                     <i class="fas fa-cog"></i>
+                  <span class="setting_option">Setting</span>
+                  </div>
+                  <div class="main__controls__button"> 
+                  <i class="fas fa-expand"></i>
+                  <span class="full_screen">Full Screen</span>
+                  </div>
+             </div>
          </div>
       </div>
       <div class="main__right">
          <div class="main__header">
-            <h6>User</h6>
-            <h6>Chat</h6>
-            <h6>Subtitle</h6>
+
+            <div class = "header_title">
+               <span>Chatting Main </span>
+               <span class="close" style="margin-right:5%;"> X</span>
+               
+            </div>
+
+            <br>
+
+            <!-- <div class="main__controls__block menue">
+                      <div  onclick="handleUsersTab()" class="side__controls__button users_button">
+                        <i class="fas fa-user-friends"></i>
+                           <span>Users</span>
+                     </div>
+
+                     <div onclick="handleChatTab()" class="side__controls__button chat_button">
+                        <i class="fas fa-comment-alt"></i>
+                           <span>Chat</span>
+                     </div>          
+                  
+                     <div onclick="handleSubtitleTab()"  class="side__controls__button subtitle_button">
+                        <i class="fas fa-comment-alt"></i>
+                               <span>Subtitle</span>
+                     </div>
+                     
+            </div> -->
+            
+
+            <div class="tab">
+               <button class="tablinks" onclick="onUsersTab(event, 'Users')">Users</button>
+               <button class="tablinks" onclick="onChatTab(event, 'Chat')">Chat</button>
+               <button class="tablinks" onclick="onSubtitleTab(event, 'Subtitle')">Subtitle</button>
+             </div>
+
+             <div id="Users" class="tabcontent">
+               <h3>Users</h3>
+               <p>Users rendered here</p>
+            </div>
+
+            <div id="Chat" class="tabcontent">
+               <h3>Chat</h3>
+               <p>Messsages rendered here</p> 
+            </div>
+            
+            <div id="Subtitle" class="tabcontent">
+               <h3>Subtitle</h3>
+               <p>Subtitle rendered here</p>
+            </div>
+
          </div>
          <div class="main__chat_window">
             <ul class="messages">
