@@ -3,8 +3,8 @@
 
 ### Description
 
-The implementation is not fully complete, but still demonstrates basic understanding of our product.
-Frontend of Weco is created using Javascript, Express, Node.js, Socket.io to connect to the backend.
+The implementation is not fully complete, but it still demonstrates basic understanding of our product.
+Frontend of Weco is created using Javascript, Express, Node.js, Socket.io to connect to the backend. 
 
 More detailed desciption can be found below.
 
@@ -17,7 +17,9 @@ Prototype Video: [Weco Prototype Video](https://youtu.be/px1pHuXSqB0)
 Git Repository Link: [Weco Git Repository](https://github.com/JuntionXSeoul2020Telepasee)
 
 
+### Hosted Web Server
 
+http://5gspeedtest.kr:14008
 
 ### Installation
 
