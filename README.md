@@ -3,7 +3,7 @@
 
 ### Description
 
-The implementation is not fully complete, but it still demonstrates basic understanding of our product.
+The implementation is not fully complete and does not have proper binding with backend. However, it still demonstrates basic understanding of our product.
 Frontend of Weco is created using Javascript, Express, Node.js, Socket.io to connect to the backend. 
 
 More detailed desciption can be found below.
